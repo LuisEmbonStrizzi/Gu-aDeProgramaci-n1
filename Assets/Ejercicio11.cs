@@ -28,8 +28,12 @@ public class Ejercicio11 : MonoBehaviour
     {
         Total = Precio * Cantidad;
 
-        Debug.Log(
-              "  Fecha de compra: " + FechaDeCompra + "\n" + " Nombre del comprador: " + NombreDelComprador + "\n" + " Producto solicitado: " + NombreDelProducto + "\n" + " Cantidad solicitada: " + Cantidad + " Precio unitario: " + Precio + " Total a pagar: " + Total);
+        Debug.Log(" Fecha de compra: " + FechaDeCompra);
+        Debug.Log(" Nombre del comprador: " + NombreDelComprador);
+        Debug.Log(" Producto solicitado: " + NombreDelProducto);
+        Debug.Log(" Cantidad solicitada: " + Cantidad);
+        Debug.Log(" Precio unitario: $" + Precio); 
+        Debug.Log(" Total a pagar: $" + Total);
     }
 
     // Update is called once per frame
